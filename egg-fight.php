@@ -1,18 +1,5 @@
 <?php
 
-/* *
-- Vairākas olas ar dažādiem spēkiem  - check
-- Randomā ģenerējas olas ar dažādiem spēkiem spēlētājam - check
-- Olām ir daudzums (var būt vienādas olas ar lielāku daudzumu) - check
-- Uzvaras gadījumā Tu saņem pretinieka olu. - check
-- Zaudējuma gadījumā Tev pazūd ola - check
-- Neizšķirta gadījumā abiem pazūd ola
-- Kaujas simulācija beidzas tad, kad vienam no spēlētājiem beidzas olas - check
- * */
-
-//possible solutioni - dupliceet olu masivu (divas puses katrai olai)
-// - iedot olai quantity un zaudejuma gadijuma quantity -1 uz atdot pretiniekam
-
 $eggCount = 5;
 
 $eggs = [
